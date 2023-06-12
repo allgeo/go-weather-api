@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "1970497f-d804-408e-a8d3-4acf1cbf1061",
+		"name": "go-weather-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22973644"
+	},
+	"item": [
+		{
+			"name": "Get weather based on city",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "0.0.0.0:8081/api/weather/current",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"weather",
+						"current"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
